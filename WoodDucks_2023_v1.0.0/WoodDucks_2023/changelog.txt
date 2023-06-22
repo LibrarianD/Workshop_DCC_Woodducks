@@ -1,0 +1,27 @@
+# Changelog
+
+ All notable changes to this project will be documented in this file.
+
+ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+ ## [0.1.0] - 2023-06-22
+  ### Added
+
+all the datafiles are renamed using their ID
+all datafiles are comibned in one dataset called: Dataset_AllObservations
+The root directory is created and the root folder is called: WoodDucks_2023
+
+## [1.0.0] - 2023-06-22
+  ### Added
+
+-changed:
+all the masses were inverted to unit gram and the unit was added to the title in the column. Mass => Mass[gr]
+renamed tab with the dataset to data
+-removed:
+the column A is deleted from the dataset called: Dataset_AllObservations
+all the unknown values were removed
+-added:
+created tab called plot
+we have created plot number 1 called: number_of_eggs_hatched_per_temperature (number of eggs hatched vs. average ambient temperature)
+
